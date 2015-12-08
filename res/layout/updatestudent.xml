@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.94"
+            android:ems="10"
+            android:hint="Enter Student Name" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.93"
+            android:ems="10"
+            android:hint="Enter Gender" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etdob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.97"
+            android:ems="10"
+            android:hint="Enter Date Of Birth" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.96"
+            android:ems="10"
+            android:hint="Enter Address" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.96"
+            android:ems="10"
+            android:hint="Enter Email" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etcid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.03"
+            android:ems="10"
+            android:hint="Enter Class ID" >
+
+            <requestFocus />
+        </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_weight="1" 
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" 
+            android:layout_weight="1"
+            
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
